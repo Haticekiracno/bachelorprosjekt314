@@ -3,28 +3,8 @@ import React from 'react'
 export default function Home(){
   return (
     <section>
-      <div className="hero">
-        <h2>Velkommen til vårt bachelorprosjekt</h2>
-        <p>Dette er en presentasjonsside for en gruppe på fire studenter som jobber med et bachelorprosjekt. Her finner du informasjon om teamet, prosjektets mål og hvordan du kan kontakte oss.</p>
-      </div>
-
-      <div className="grid">
-        <div className="card">
-          <h3>Mål</h3>
-          <p>Utvikle en brukervennlig løsning som løser et konkret problem innen vårt fagfelt.</p>
-        </div>
-        <div className="card">
-          <h3>Teknologi</h3>
-          <p>React, Vite, moderne JavaScript, og relevante biblioteker for databehandling og UI.</p>
-        </div>
-        <div className="card">
-          <h3>Tidsplan</h3>
-          <p>Planlagt leveranse og milepæler gjennom semesteret, med jevnlige møter og demoer.</p>
-        </div>
-      </div>
-
       <section style={{maxWidth:920, margin:'2rem auto'}}>
-        <h2 style={{textAlign:'center'}}>Smart Notification Engine — Oversikt</h2>
+        <h2 style={{textAlign:'center'}}>Smart Notification Engine</h2>
 
         <p>Vi skal utvikle en Smart Notification Engine som:</p>
         <ul>

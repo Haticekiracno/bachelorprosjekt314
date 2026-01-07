@@ -3,21 +3,7 @@ import React from 'react'
 export default function Project(){
   return (
     <section style={{maxWidth:720, margin:'1.5rem auto'}}>
-      <h2 style={{textAlign:'center'}}>Prosjekt</h2>
-      <h3>Problemstilling</h3>
-      <p>Vi ønsker å utvikle en Smart Notification Engine som forbedrer brukeropplevelsen ved å sende relevante og personaliserte varsler basert på historikk og sanntidsdata.</p>
-
-      <h3>Forslag</h3>
-      <p>Design og implementer logikk for mønstergjenkjenning, beslutningsregler og enkle personaliseringsstrategier. Fokuser på evaluerbarhet og målbare KPIer.</p>
-    </section>
-  )
-}
-import React from 'react'
-
-export default function Project(){
-  return (
-    <section>
-  <h2 style={{textAlign: 'center', fontSize: '1.8rem', marginBottom: '0.5rem'}}>Prosjektet</h2>
+      <h2 style={{textAlign: 'center', fontSize: '1.8rem', marginBottom: '0.5rem'}}>Prosjekt</h2>
 
       <h3>Problemstilling</h3>
       <p>
