@@ -1,29 +1,31 @@
 import React from 'react'
 
 export default function Team(){
+  const baseUrl = import.meta.env.BASE_URL || '/'
+  
   const teamMembers = [
     {
       name: 'Furkan Murat Kara',
       role: 'Scrum Master',
-      image: '/images/furkan.jpg',
+      image: `${baseUrl}images/furkan.jpg`,
       color: '#50C878'
     },
     {
       name: 'Herman Hansen',
       role: 'Backend Utvikler',
-      image: '/images/ahmet.jpg',
+      image: `${baseUrl}images/ahmet.jpg`,
       color: '#4A90E2'
     },
     {
       name: 'Ömer Sen',
       role: 'Frontend Utvikler',
-      image: '/images/omer.jpg',
+      image: `${baseUrl}images/omer.jpg`,
       color: '#FF6B4A'
     },
     {
       name: 'Hatice Kirac',
       role: 'Fullstack Utvikler',
-      image: '/images/IMG_9932.jpg',
+      image: `${baseUrl}images/IMG_9932.jpg`,
       color: '#9B59B6'
     }
   ]
